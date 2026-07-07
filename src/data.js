@@ -2,14 +2,14 @@ export const personal = {
   name: "Ritik Yadav",
   title: "Product Manager",
   tagline:
-    "Product Manager building enterprise SaaS & AI-agent products end-to-end — from client discovery to ROI-driven delivery.",
+    "Product Manager building enterprise SaaS & AI-agent products end-to-end, from client discovery to ROI-driven delivery.",
   email: "yadavritik2016@gmail.com",
   github: "https://github.com/Ritik-675",
   linkedin: "https://www.linkedin.com/in/ritik-yadav-675abc/",
 };
 
 export const about =
-  "Product Manager owning enterprise SaaS and AI-agent products end-to-end, from client discovery through ROI-driven delivery. Leads a 10-person product and FDSE team, working closely with engineering, QA, and DevOps across multi-client enterprise programs, 2,000+ API integrations, 10+ applications, and 20+ AI agents shipped — translating client pain points into AI-driven solutions that drive measurable dollar-value impact.";
+  "Product Manager owning enterprise SaaS and AI-agent products end-to-end, from client discovery through ROI-driven delivery. Leads a 10-person product and FDSE team, working closely with engineering, QA, and DevOps across multi-client enterprise programs, 2,000+ API integrations, 10+ applications, and 20+ AI agents shipped, translating client pain points into AI-driven solutions that drive measurable dollar-value impact.";
 
 export const aboutStats = [
   { label: "API integrations owned", value: "2,000+" },
@@ -65,7 +65,7 @@ export const caseStudies = [
     problem:
       "An enterprise client needed to move its infrastructure off Azure onto GCP without disrupting live workloads.",
     action:
-      "Led discovery through launch — mapping dependencies, sequencing a phased cutover, and coordinating engineering, DevOps, and QA on the migration plan.",
+      "Led discovery through launch, mapping dependencies, sequencing a phased cutover, and coordinating engineering, DevOps, and QA on the migration plan.",
     result:
       "Full infrastructure migrated to GCP with zero-disruption launch, setting the platform up for scale on the new cloud.",
   },
