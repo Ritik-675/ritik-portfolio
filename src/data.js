@@ -33,7 +33,7 @@ export const aboutStats = [
   { label: "API integrations owned", value: "2,000+" },
   { label: "Applications shipped", value: "10+" },
   { label: "AI agents shipped", value: "20+" },
-  { label: "Team led", value: "10 people" },
+  { label: "Team led", value: "10+" },
 ];
 
 export const experience = [
