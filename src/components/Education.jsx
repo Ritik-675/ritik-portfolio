@@ -55,13 +55,22 @@ export default function Education() {
             <h3 className="mt-5 font-serif text-lg font-bold text-slate-900 dark:text-white">
               Recognition
             </h3>
-            <div className="mt-4 grid gap-4 sm:grid-cols-2">
+            <div className="mt-5 grid gap-4 sm:grid-cols-2">
               {awards.map((award) => (
-                <div key={award.name}>
-                  <p className="text-sm font-semibold text-slate-800 dark:text-slate-200">{award.name}</p>
-                  <p className="mt-1 text-sm text-slate-500 dark:text-slate-500">
-                    {award.org} · {award.year}
+                <div
+                  key={award.name}
+                  className="rounded-xl border border-slate-200 bg-white/60 p-5 dark:border-slate-800 dark:bg-slate-800/40"
+                >
+                  <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400">
+                    <Award size={16} />
+                  </div>
+                  <p className="mt-3 text-sm font-semibold text-slate-800 dark:text-slate-200">
+                    {award.name}
                   </p>
+                  <p className="mt-1 text-sm text-slate-500 dark:text-slate-500">{award.org}</p>
+                  <span className="mt-3 inline-block rounded-full bg-emerald-500/10 px-2.5 py-0.5 text-xs font-medium text-emerald-700 dark:text-emerald-400">
+                    {award.year}
+                  </span>
                 </div>
               ))}
             </div>
