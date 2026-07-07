@@ -52,9 +52,9 @@ export default function Education() {
             <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400">
               <Award size={20} />
             </div>
-            <h3 className="mt-5 font-serif text-lg font-bold text-slate-900 dark:text-white">
+            <p className="mt-5 text-xs font-semibold uppercase tracking-[0.2em] text-emerald-600 dark:text-emerald-400">
               Recognition
-            </h3>
+            </p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
               {awards.map((award) => (
                 <div
