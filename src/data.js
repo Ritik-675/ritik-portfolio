@@ -11,6 +11,24 @@ export const personal = {
 export const about =
   "Product Manager owning enterprise SaaS and AI-agent products end-to-end, from client discovery through ROI-driven delivery. Leads a 10-person product and FDSE team, working closely with engineering, QA, and DevOps across multi-client enterprise programs, 2,000+ API integrations, 10+ applications, and 20+ AI agents shipped, translating client pain points into AI-driven solutions that drive measurable dollar-value impact.";
 
+export const heroTechStack = ["GCP", "AWS", "SQL", "Python", "PySpark"];
+
+export const heroHighlights = [
+  {
+    value: "5",
+    label: "Enterprise client deliveries owned end-to-end, from discovery to launch",
+  },
+  {
+    value: "20+",
+    label:
+      "Agentic AI features shipped, including Text2Automation, Workflow Summary, AI FDE, Test Suite and Backup Manager",
+  },
+  {
+    value: "Azure & AWS → GCP",
+    label: "iPaaS and data infrastructure migrations led end-to-end",
+  },
+];
+
 export const aboutStats = [
   { label: "API integrations owned", value: "2,000+" },
   { label: "Applications shipped", value: "10+" },
